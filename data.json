@@ -70,7 +70,7 @@
         {
           "id": 1,
           "nombre": "Carne de birria (kg)",
-          "stock": 8,
+          "stock": 5,
           "min": 2
         },
         {
@@ -82,31 +82,31 @@
         {
           "id": 3,
           "nombre": "Carne al pastor (kg)",
-          "stock": 2,
+          "stock": 4,
           "min": 2
         },
         {
           "id": 4,
           "nombre": "Birriamen (porciones)",
-          "stock": 3,
+          "stock": 5,
           "min": 2
         },
         {
           "id": 5,
           "nombre": "Gaseosas (unidades)",
-          "stock": 6,
+          "stock": 11,
           "min": 2
         },
         {
           "id": 6,
           "nombre": "Jarritos (unidades)",
-          "stock": 3,
+          "stock": 6,
           "min": 2
         },
         {
           "id": 7,
           "nombre": "Frescos naturales",
-          "stock": 4,
+          "stock": 8,
           "min": 2
         }
       ],
@@ -178,310 +178,14 @@
       ],
       "transacciones": [
         {
-          "mesaId": 1,
-          "mesaNombre": "Mesa 1",
-          "total": 60,
-          "hora": "11:05 a. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777568708969,
-          "detalle": "Cuenta completa",
-          "orden": [
-            {
-              "id": 1,
-              "nombre": "Taco de birria",
-              "precio": 45,
-              "qty": 1
-            },
-            {
-              "id": 2,
-              "nombre": "Birria +1",
-              "precio": 15,
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "mesaId": 3,
-          "mesaNombre": "Mesa 3",
-          "total": 10,
-          "hora": "11:03 a. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777568620428,
-          "detalle": "Cuenta completa",
-          "orden": [
-            {
-              "id": 6,
-              "nombre": "Gaseosa",
-              "precio": 10,
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "mesaId": 2,
-          "mesaNombre": "Mesa 2",
-          "total": 10,
-          "hora": "11:02 a. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777568565780,
-          "detalle": "Persona 1",
-          "orden": [
-            {
-              "id": 6,
-              "nombre": "Gaseosa",
-              "precio": 10,
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "mesaId": 2,
-          "mesaNombre": "Mesa 2",
-          "total": 20,
-          "hora": "11:02 a. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777568559527,
-          "detalle": "Persona 2",
-          "orden": [
-            {
-              "id": 8,
-              "nombre": "Jarrito",
-              "precio": 20,
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "mesaId": 0,
-          "mesaNombre": "Mostrador · Ticket #4",
-          "total": 80,
-          "hora": "11:02 a. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777568527476,
-          "detalle": "Ticket #4",
-          "orden": [
-            {
-              "id": 1,
-              "nombre": "Taco de birria",
-              "precio": 45,
-              "qty": 1
-            },
-            {
-              "id": 2,
-              "nombre": "Birria +1",
-              "precio": 15,
-              "qty": 1
-            },
-            {
-              "id": 7,
-              "nombre": "Fresco natural",
-              "precio": 10,
-              "qty": 1
-            },
-            {
-              "id": 6,
-              "nombre": "Gaseosa",
-              "precio": 10,
-              "qty": 1
-            }
-          ],
-          "mostrador": true
-        },
-        {
-          "mesaId": 5,
-          "mesaNombre": "Mesa 5",
-          "total": 85,
-          "hora": "10:37 a. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777567077459,
-          "detalle": "Cuenta completa",
-          "orden": [
-            {
-              "id": 1,
-              "nombre": "Taco de birria",
-              "precio": 45,
-              "qty": 1
-            },
-            {
-              "id": 5,
-              "nombre": "Birriamen",
-              "precio": 40,
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "mesaId": 2,
-          "mesaNombre": "Mesa 2",
-          "total": 10,
-          "hora": "10:37 a. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777567074096,
-          "detalle": "Cuenta completa",
-          "orden": [
-            {
-              "id": 7,
-              "nombre": "Fresco natural",
-              "precio": 10,
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "mesaId": 1,
-          "mesaNombre": "Mesa 1",
-          "total": 50,
-          "hora": "10:37 a. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777567069647,
-          "detalle": "Cuenta completa",
-          "orden": [
-            {
-              "id": 5,
-              "nombre": "Birriamen",
-              "precio": 40,
-              "qty": 1
-            },
-            {
-              "id": 6,
-              "nombre": "Gaseosa",
-              "precio": 10,
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "mesaId": 0,
-          "mesaNombre": "Mostrador · Ticket #3",
-          "total": 40,
-          "hora": "10:37 a. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777567029794,
-          "detalle": "Ticket #3",
-          "orden": [
-            {
-              "id": 5,
-              "nombre": "Birriamen",
-              "precio": 40,
-              "qty": 1
-            }
-          ],
-          "mostrador": true
-        },
-        {
-          "mesaId": 2,
-          "mesaNombre": "Mesa 2",
-          "total": 10,
-          "hora": "10:35 a. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777566945632,
-          "detalle": "Persona 1",
-          "orden": [
-            {
-              "id": 6,
-              "nombre": "Gaseosa",
-              "precio": 10,
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "mesaId": 2,
-          "mesaNombre": "Mesa 2",
-          "total": 60,
-          "hora": "10:35 a. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777566943786,
-          "detalle": "Persona 2",
-          "orden": [
-            {
-              "id": 5,
-              "nombre": "Birriamen",
-              "precio": 40,
-              "qty": 1
-            },
-            {
-              "id": 8,
-              "nombre": "Jarrito",
-              "precio": 20,
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "mesaId": 1,
-          "mesaNombre": "Mesa 1",
-          "total": 150,
-          "hora": "10:34 a. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777566886011,
-          "detalle": "Cuenta completa",
-          "orden": [
-            {
-              "id": 1,
-              "nombre": "Taco de birria",
-              "precio": 45,
-              "qty": 2
-            },
-            {
-              "id": 5,
-              "nombre": "Birriamen",
-              "precio": 40,
-              "qty": 1
-            },
-            {
-              "id": 7,
-              "nombre": "Fresco natural",
-              "precio": 10,
-              "qty": 2
-            }
-          ]
-        },
-        {
-          "mesaId": 0,
-          "mesaNombre": "Mostrador · Ticket #2",
-          "total": 70,
-          "hora": "10:34 a. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777566868453,
-          "detalle": "Ticket #2",
-          "orden": [
-            {
-              "id": 3,
-              "nombre": "Taco al pastor",
-              "precio": 35,
-              "qty": 1
-            },
-            {
-              "id": 4,
-              "nombre": "Pastor +1",
-              "precio": 15,
-              "qty": 1
-            },
-            {
-              "id": 8,
-              "nombre": "Jarrito",
-              "precio": 20,
-              "qty": 1
-            }
-          ],
-          "mostrador": true
-        },
-        {
           "mesaId": 0,
           "mesaNombre": "Mostrador · Ticket #1",
-          "total": 55,
-          "hora": "10:34 a. m.",
+          "total": 10,
+          "hora": "02:11 p. m.",
           "fecha": "30/4/2026",
-          "ts": 1777566858384,
+          "ts": 1777579864748,
           "detalle": "Ticket #1",
           "orden": [
-            {
-              "id": 1,
-              "nombre": "Taco de birria",
-              "precio": 45,
-              "qty": 1
-            },
             {
               "id": 6,
               "nombre": "Gaseosa",
@@ -493,14 +197,7 @@
         }
       ],
       "ventas": {
-        "Taco de birria": 6,
-        "Gaseosa": 6,
-        "Taco al pastor": 1,
-        "Pastor +1": 1,
-        "Jarrito": 3,
-        "Birriamen": 5,
-        "Fresco natural": 4,
-        "Birria +1": 2
+        "Gaseosa": 1
       },
       "_nextMenuId": 9,
       "_nextInvId": 8,
