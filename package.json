@@ -1,0 +1,15 @@
+{
+  "name": "taqueria-nueva-orden",
+  "version": "1.0.0",
+  "description": "POS Taquería Nueva Orden — Sistema por AA Projects",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "AA Projects",
+  "license": "UNLICENSED",
+  "private": true
+}
