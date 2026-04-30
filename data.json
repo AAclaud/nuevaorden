@@ -94,7 +94,7 @@
         {
           "id": 5,
           "nombre": "Gaseosas (unidades)",
-          "stock": 11,
+          "stock": 12,
           "min": 2
         },
         {
@@ -176,29 +176,8 @@
           "cobrado": 0
         }
       ],
-      "transacciones": [
-        {
-          "mesaId": 0,
-          "mesaNombre": "Mostrador · Ticket #1",
-          "total": 10,
-          "hora": "02:11 p. m.",
-          "fecha": "30/4/2026",
-          "ts": 1777579864748,
-          "detalle": "Ticket #1",
-          "orden": [
-            {
-              "id": 6,
-              "nombre": "Gaseosa",
-              "precio": 10,
-              "qty": 1
-            }
-          ],
-          "mostrador": true
-        }
-      ],
-      "ventas": {
-        "Gaseosa": 1
-      },
+      "transacciones": [],
+      "ventas": {},
       "_nextMenuId": 9,
       "_nextInvId": 8,
       "_nextMesaId": 9
